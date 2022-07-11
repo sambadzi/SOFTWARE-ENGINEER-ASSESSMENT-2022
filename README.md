@@ -25,3 +25,7 @@ Fix: match table_name to entity name in NamedQuery
 
 7.Fix: Binding partnecode to partnerCode @WebParam(name=“partnerCode”)- IntelligentNetworkService.java 
   Fix:Change @BindingType(value = SOAPBinding.SOAP11HTTP_BINDING)- IntelligentNetworkServiceImp.java
+
+Fialed to pick partnerCode:
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
